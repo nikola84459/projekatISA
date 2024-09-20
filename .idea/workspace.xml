@@ -4,102 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b664491-52d2-41b2-9e59-fc4fb164150d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/ProjekatApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/config/AplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/config/JwtTokenFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/config/SecurityConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/constants/BrojConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/constants/ConfigConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/AuthController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/IspitController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/ObavestenjeControllor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/PredmetController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/ProfesorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/RataController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/AktivnostPodaciDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/IspitDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/IspitPodaciDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/IspitPrijavaDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/IspitPrijavljeniDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/PromenaSifreDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RataDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestAddIspitDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestAktivnostAllDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestIspitDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestPredmetDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestPrijavaIspitaDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestRataPlacanjeDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestSetZakljucenDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestUpdateStanjeDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/ResponseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/enums/PravaPristupa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/enums/RoleEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/IspitModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/IspitPrijavaModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/IspitRaspored.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/IspitniRokModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/ObavestenjeModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/PravaPristupaModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/PredmetModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/ProfesorModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/ProfesorPravaPristupaModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/ProfesorTokenModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/RacunModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/RataModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/SmerModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/SmerPredmet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/StudentModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/StudentPravaPristupaModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/StudentPredmet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/StudentTokenModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/UpisModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IIspitPrijavaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IIspitRasporedRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IIspitRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IIspitniRokRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IObavestenjeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IPredmetRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IProfesorRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IProfesorTokenRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IRacunRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IRataRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IStudentPredmetRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IStudentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IStudentTokenRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IUpisRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/request/PlacanjeRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/response/PlacanjeResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/AutentificationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IAutentificationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IIspitService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IObavestenjeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IPlacanjeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IPredmetService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IProfesorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IRataService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IStudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IspitService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/JwtService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/LogoutService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/ObavestenjeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/PlacanjeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/PredmetService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/ProfesorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/RataService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rs/ac/singidunum/projekat/ProjekatApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rs/ac/singidunum/projekat/models/StudentModelTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="9b664491-52d2-41b2-9e59-fc4fb164150d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -329,7 +234,7 @@
       <workItem from="1705523766083" duration="786000" />
       <workItem from="1706816157792" duration="791000" />
       <workItem from="1726870903532" duration="125000" />
-      <workItem from="1726873994485" duration="308000" />
+      <workItem from="1726873994485" duration="558000" />
     </task>
     <servers />
   </component>

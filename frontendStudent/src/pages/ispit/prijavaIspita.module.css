@@ -1,0 +1,35 @@
+.container {
+    margin-top: 10rem;
+    margin-left: 15rem;
+}
+
+.tabela {
+    margin-top: 2rem;
+}
+
+.prijavljeni{
+    margin-top: 11rem;
+}
+
+.aktivnosti {
+    width: 30rem;
+}
+
+
+.alert {
+    margin-top: 1rem;
+}
+
+.dugmeOdustani {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.dugmeOdustaniPlacanje {
+    margin-left: 0.5rem;
+    margin-top: 0.18rem;
+}
+
+.dugmeIspitniRok {
+    margin-top: 0.5rem;
+}
