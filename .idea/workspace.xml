@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b664491-52d2-41b2-9e59-fc4fb164150d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/ProjekatApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/config/AplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/config/JwtTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/config/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/constants/BrojConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/constants/ConfigConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/IspitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/ObavestenjeControllor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/PredmetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/ProfesorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/RataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/controllers/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/AktivnostPodaciDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/IspitDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/IspitPodaciDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/IspitPrijavaDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/IspitPrijavljeniDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/PromenaSifreDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RataDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestAddIspitDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestAktivnostAllDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestIspitDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestPredmetDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestPrijavaIspitaDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestRataPlacanjeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestSetZakljucenDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/RequestUpdateStanjeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/dtos/ResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/enums/PravaPristupa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/enums/RoleEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/IspitModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/IspitPrijavaModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/IspitRaspored.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/IspitniRokModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/ObavestenjeModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/PravaPristupaModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/PredmetModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/ProfesorModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/ProfesorPravaPristupaModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/ProfesorTokenModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/RacunModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/RataModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/SmerModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/SmerPredmet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/StudentModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/StudentPravaPristupaModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/StudentPredmet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/StudentTokenModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/models/UpisModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IIspitPrijavaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IIspitRasporedRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IIspitRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IIspitniRokRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IObavestenjeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IPredmetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IProfesorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IProfesorTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IRacunRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IRataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IStudentPredmetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IStudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IStudentTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/repositories/IUpisRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/request/PlacanjeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/response/PlacanjeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/AutentificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IAutentificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IIspitService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IObavestenjeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IPlacanjeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IPredmetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IProfesorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IRataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/IspitService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/LogoutService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/ObavestenjeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/PlacanjeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/PredmetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/ProfesorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/RataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rs/ac/singidunum/projekat/services/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rs/ac/singidunum/projekat/ProjekatApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rs/ac/singidunum/projekat/models/StudentModelTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2UUD9lMU6J4pku7YNk0GUDSAnhF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/isaProjekat/back-end",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "20d8d2adb3419405f47cfb5d4e169233",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="rs.ac.singidunum.projekat.models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="back-end" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="back-end" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjekatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="projekat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rs.ac.singidunum.projekat.ProjekatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b664491-52d2-41b2-9e59-fc4fb164150d" name="Changes" comment="" />
+      <created>1692985122874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692985122874</updated>
+      <workItem from="1692985124060" duration="3094000" />
+      <workItem from="1693079192276" duration="122000" />
+      <workItem from="1693079376816" duration="894000" />
+      <workItem from="1693654422631" duration="795000" />
+      <workItem from="1693679032521" duration="607000" />
+      <workItem from="1694094215080" duration="2326000" />
+      <workItem from="1694182358357" duration="11397000" />
+      <workItem from="1694198799599" duration="256000" />
+      <workItem from="1694199159795" duration="1000000" />
+      <workItem from="1694732666556" duration="4865000" />
+      <workItem from="1694737614483" duration="3830000" />
+      <workItem from="1694780440647" duration="4408000" />
+      <workItem from="1694794194047" duration="8380000" />
+      <workItem from="1694810839692" duration="7630000" />
+      <workItem from="1694865449636" duration="7304000" />
+      <workItem from="1694875309875" duration="8044000" />
+      <workItem from="1694905518665" duration="332000" />
+      <workItem from="1694960319812" duration="10030000" />
+      <workItem from="1695129666533" duration="12333000" />
+      <workItem from="1695208297043" duration="13476000" />
+      <workItem from="1695300559027" duration="6419000" />
+      <workItem from="1695312252672" duration="11835000" />
+      <workItem from="1695382337588" duration="9744000" />
+      <workItem from="1695413935067" duration="1047000" />
+      <workItem from="1695415172563" duration="50000" />
+      <workItem from="1695471531728" duration="1728000" />
+      <workItem from="1695474363631" duration="4911000" />
+      <workItem from="1695483759781" duration="2744000" />
+      <workItem from="1695494567400" duration="2566000" />
+      <workItem from="1695551538900" duration="972000" />
+      <workItem from="1695552520579" duration="10057000" />
+      <workItem from="1695579611353" duration="1896000" />
+      <workItem from="1695719669825" duration="5751000" />
+      <workItem from="1695814297104" duration="9580000" />
+      <workItem from="1696074342367" duration="5993000" />
+      <workItem from="1696083697773" duration="1443000" />
+      <workItem from="1696251647941" duration="7703000" />
+      <workItem from="1696592821677" duration="11437000" />
+      <workItem from="1696676883924" duration="7369000" />
+      <workItem from="1696691753188" duration="1283000" />
+      <workItem from="1696693045607" duration="502000" />
+      <workItem from="1696693577624" duration="1081000" />
+      <workItem from="1696771798191" duration="6222000" />
+      <workItem from="1696856702933" duration="17864000" />
+      <workItem from="1696933617461" duration="15545000" />
+      <workItem from="1697023110398" duration="102000" />
+      <workItem from="1697026376934" duration="16834000" />
+      <workItem from="1697060453318" duration="471000" />
+      <workItem from="1697114248007" duration="16679000" />
+      <workItem from="1697202857284" duration="453000" />
+      <workItem from="1697205417735" duration="6000" />
+      <workItem from="1697208199298" duration="4833000" />
+      <workItem from="1697234187260" duration="2030000" />
+      <workItem from="1697292179185" duration="13125000" />
+      <workItem from="1697323661516" duration="2829000" />
+      <workItem from="1697384645519" duration="6892000" />
+      <workItem from="1697454451734" duration="13194000" />
+      <workItem from="1697549168996" duration="304000" />
+      <workItem from="1697549483917" duration="9813000" />
+      <workItem from="1697633250818" duration="1836000" />
+      <workItem from="1697649415779" duration="653000" />
+      <workItem from="1697727465327" duration="1418000" />
+      <workItem from="1697807513020" duration="5845000" />
+      <workItem from="1697887163222" duration="10645000" />
+      <workItem from="1697918753667" duration="2376000" />
+      <workItem from="1697979387385" duration="367000" />
+      <workItem from="1697979813099" duration="6024000" />
+      <workItem from="1697988543058" duration="8364000" />
+      <workItem from="1698060774152" duration="1290000" />
+      <workItem from="1698153413303" duration="7043000" />
+      <workItem from="1698175709918" duration="4057000" />
+      <workItem from="1698235198199" duration="5193000" />
+      <workItem from="1698243177976" duration="4677000" />
+      <workItem from="1698335193137" duration="3944000" />
+      <workItem from="1698421594472" duration="4067000" />
+      <workItem from="1698433788897" duration="93000" />
+      <workItem from="1698494496758" duration="3922000" />
+      <workItem from="1698501491134" duration="1182000" />
+      <workItem from="1698504317443" duration="3387000" />
+      <workItem from="1698581009596" duration="4060000" />
+      <workItem from="1698928705399" duration="11169000" />
+      <workItem from="1698952458262" duration="2660000" />
+      <workItem from="1699011806914" duration="11672000" />
+      <workItem from="1699052944192" duration="1659000" />
+      <workItem from="1699099449569" duration="12669000" />
+      <workItem from="1699185247791" duration="7910000" />
+      <workItem from="1699211404390" duration="3236000" />
+      <workItem from="1699283780470" duration="9055000" />
+      <workItem from="1699305586742" duration="160000" />
+      <workItem from="1699305760160" duration="2578000" />
+      <workItem from="1699356944231" duration="13939000" />
+      <workItem from="1699449554826" duration="2640000" />
+      <workItem from="1699455775461" duration="3101000" />
+      <workItem from="1699481053630" duration="1561000" />
+      <workItem from="1699552233501" duration="2715000" />
+      <workItem from="1699569188536" duration="2559000" />
+      <workItem from="1699627200373" duration="5032000" />
+      <workItem from="1699715900219" duration="6605000" />
+      <workItem from="1699752724180" duration="918000" />
+      <workItem from="1699797168086" duration="4939000" />
+      <workItem from="1699880666214" duration="14624000" />
+      <workItem from="1699918883416" duration="3448000" />
+      <workItem from="1700146634842" duration="5890000" />
+      <workItem from="1700225824296" duration="15918000" />
+      <workItem from="1700316040201" duration="297000" />
+      <workItem from="1700316923784" duration="2435000" />
+      <workItem from="1700488158979" duration="11318000" />
+      <workItem from="1700572222457" duration="3169000" />
+      <workItem from="1700662004131" duration="2837000" />
+      <workItem from="1700686128805" duration="3506000" />
+      <workItem from="1700698686761" duration="2723000" />
+      <workItem from="1700750968113" duration="6392000" />
+      <workItem from="1700926222077" duration="730000" />
+      <workItem from="1700947338251" duration="1002000" />
+      <workItem from="1701022591698" duration="5730000" />
+      <workItem from="1701188482554" duration="11780000" />
+      <workItem from="1701270202568" duration="3066000" />
+      <workItem from="1703850611871" duration="4245000" />
+      <workItem from="1703937320255" duration="4025000" />
+      <workItem from="1704896769786" duration="177000" />
+      <workItem from="1704985186589" duration="5302000" />
+      <workItem from="1705085559631" duration="4897000" />
+      <workItem from="1705153112963" duration="10073000" />
+      <workItem from="1705255775796" duration="3099000" />
+      <workItem from="1705328938034" duration="1331000" />
+      <workItem from="1705415469690" duration="14000" />
+      <workItem from="1705415494418" duration="28000" />
+      <workItem from="1705446860293" duration="1652000" />
+      <workItem from="1705523766083" duration="786000" />
+      <workItem from="1706816157792" duration="791000" />
+      <workItem from="1726870903532" duration="125000" />
+      <workItem from="1726873994485" duration="308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/back_end$ProjekatApplication.ic" NAME="ProjekatApplication Coverage Results" MODIFIED="1695415069265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>rs.ac.singidunum.projekat.*</FILTER>
+    </SUITE>
+  </component>
+</project>
