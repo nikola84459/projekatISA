@@ -1,0 +1,32 @@
+package rs.ac.singidunum.projekat.enums;
+
+public enum PravaPristupa {
+    StudentReadPrijavljeni,
+    StudentReadPolozeni,
+    StudentReadNeuspesnaPolaganja,
+    StudentGetIspitniRok,
+    StudentGetIspitRaspored,
+    StudentPrijavaIspita,
+    ProfesorAddIspit,
+    ProfesorReadPrijavljeni,
+    ProfesorGetNeZakljuceniIspitniRok,
+    ProfesorGetZakljuceniIspitniRok,
+    ProfesorReadZakljuceniIspiti,
+    ProfesorSetIsZakljucen,
+    StudentReadObavestenja,
+    StudentReadStaraObavestenja,
+    StudentReadPredmet,
+    StudentReadAktivnost,
+    ProfesorReadUpisani,
+    ProfesorReadPredmet,
+    ProfesorAddAktivnost,
+    StudentReadRata,
+    StudentPlatiSkolarinu,
+    StudentReadData,
+    StudentReadUpis,
+    StudentReadStanjeNaRacunu,
+    StudentUpdateStanjeNaRacunu,
+    StudentPromeniSifru,
+    ProfesorReadData,
+    ProfesorPromeniSifru
+}
