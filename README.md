@@ -1,6 +1,5 @@
 opis:
-  Ovo je projekat iz predmeta Internet softverske arhitekture.
-  Zadatak projekta je napraviti informacioni sistem fakulteta koji ima dve uloge korisnika "Student" i "Profesor".
+  Zadatak ovog projekta je napraviti informacioni sistem fakulteta koji ima dve uloge korisnika "Student" i "Profesor".
   
   Podela funkcionalnosti prema ulozi korisnika:
     
