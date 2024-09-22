@@ -1,7 +1,9 @@
 opis:
   Ovo je projekat sa treće godine studija iz predmeta Internet softverske arhitekture.
   Zadatak projekta je napraviti informacioni sistem fakulteta koji ima dve uloge korisnika "Student" i "Profesor".
+  
   Podela funkcionalnosti prema ulozi korisnika:
+    
     Student:
       Pregled obaveštenja - gde studenti mogu pristupiti aktuelnim obaveštenjima.
       Pregled arhiviranih obaveštenja - studenti imaju mogućnost da pregledaju neka stara obaveštenja odnosno obaveštenja koja više nisu aktuelna
