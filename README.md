@@ -27,7 +27,7 @@ opis:
 
 Korištene tehnologije:
 
-  backend - Spring i Spring boot
+  backend - Spring i Spring boot, JPA
   frontend - TypeScript, React, Next.js
   baza podataka - MySQL
       
