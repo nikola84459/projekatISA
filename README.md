@@ -26,6 +26,7 @@ opis:
       Promena šifre - profesoru je takođe omogućena promena šifre
 
 Korištene tehnologije:
+
   backend - Spring i Spring boot
   frontend - TypeScript, React, Next.js
   baza podataka - mySQL
