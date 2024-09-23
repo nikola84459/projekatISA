@@ -1,6 +1,7 @@
 opis:
   Zadatak ovog projekta je napraviti informacioni sistem fakulteta koji ima dve uloge korisnika "Student" i "Profesor".
-  
+
+    
   Podela funkcionalnosti prema ulozi korisnika:
     
     Student:
@@ -23,6 +24,10 @@ opis:
       "Pregled zaključenih ispita" može da pristupi ovim funkcionalnostima
       Pregled ličnih podataka - profesor ima mogućnost da pregleda svoje lične podatke
       Promena šifre - profesoru je takođe omogućena promena šifre
+
+projekat backendPlacanje - posrednik izmedju fakulteta i banke
+
+projekat backendBanka - sistem banke gde se vrši transfer novca sa računa studenta na račun fakulteta
 
 Korištene tehnologije:
 
