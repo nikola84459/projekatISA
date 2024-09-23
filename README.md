@@ -25,6 +25,8 @@ opis:
       Pregled ličnih podataka - profesor ima mogućnost da pregleda svoje lične podatke
       Promena šifre - profesoru je takođe omogućena promena šifre
 
+projekat backendFakultet - glavni backend projekat
+
 projekat backendPlacanje - posrednik izmedju fakulteta i banke
 
 projekat backendBanka - sistem banke gde se vrši transfer novca sa računa studenta na račun fakulteta
