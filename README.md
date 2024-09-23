@@ -1,4 +1,5 @@
 opis:
+
   Zadatak ovog projekta je napraviti informacioni sistem fakulteta koji ima dve uloge korisnika "Student" i "Profesor".
 
     
