@@ -5,7 +5,7 @@ opis:
   Podela funkcionalnosti prema ulozi korisnika:
     
     Student:
-      Pregled obaveštenja - gde studenti mogu pristupiti aktuelnim obaveštenjima.
+      Pregled obaveštenja - studenti mogu pristupiti aktuelnim obaveštenjima.
       Pregled arhiviranih obaveštenja - studenti imaju mogućnost da pregledaju neka stara obaveštenja odnosno obaveštenja koja više nisu aktuelna
       Školarina - student ima mogućnost da pregleda svoje uplate, da pregledaju rate za školarinu i plaćaju ne plaćene rate preko svog studentskog naloga
       Prijava ispita i pregled prijavljenih ispita - student ima mogućnost prijave ispita preko svog naloga, takođe student ima mogućnost da pregleda ispite koje je prijavio
