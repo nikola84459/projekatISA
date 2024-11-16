@@ -29,7 +29,9 @@ Professor:
 Project Modules:
 
   backendFakultet - The main backend project.
+  
   backendPlacanje - Middleware between the university and the bank.
+  
   backendBanka - Bank system handling the transfer of funds from the student account to the university account.
   
 Technologies Used:
