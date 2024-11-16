@@ -1,43 +1,48 @@
-opis:
 
-  Zadatak ovog projekta je napraviti informacioni sistem fakulteta koji ima dve uloge korisnika "Student" i "Profesor".
+Description:
+The goal of this project is to create a university information system with two user roles: "Student" and "Professor."
 
-    
-  Podela funkcionalnosti prema ulozi korisnika:
-    
-    Student:
-      Pregled obaveštenja - studenti mogu pristupiti aktuelnim obaveštenjima.
-      Pregled arhiviranih obaveštenja - studenti imaju mogućnost da pregledaju neka stara obaveštenja odnosno obaveštenja koja više nisu aktuelna
-      Školarina - student ima mogućnost da pregleda svoje uplate, da pregledaju rate za školarinu i plaćaju ne plaćene rate preko svog studentskog naloga
-      Prijava ispita i pregled prijavljenih ispita - student ima mogućnost prijave ispita preko svog naloga, takođe student ima mogućnost da pregleda ispite koje je prijavio
-      Plaćanje ispita - student ima mogućnost preko svog naloga da izvrši plaćanje ispita
-      Pregled podataka o polaganjima ispita - student ima mogućnost da kroz svoj studentski nalog pregleda prethodna polaganja ispita koja su podeljena na "Uspešna polaganja" i "Neuspešna polaganja"
-      Aktivnost - student ima mogućnost da pregleda bodove ostvarene na predispitnim aktivnostima
-      Upis - student može pratiti svoj upis kroz sistem, gde postoje podaci i o ostvarenim ESPB za svaki upis.
-      Pregled ličnih podataka - student ima mogućnost da pregleda svoje lične podatke
-      Promena šifre - omogućena je i promena šifre
-    
-    Profesor:
-      Unos podataka za ispite - profesor ima mogućnost da unosi podatke o ispitnim aktivnostima
-      Unos aktivnosti - profesor može unositi bodove ostvarene na predispitnim aktivnostima
-      Pregled zaključenih ispita - profesori imaju mogućnost pregleda zaključenih ispita po prethodnim ispitnim rokovima
-      Pregled predmeta koje predaje - profesoru čim se uloguje na sistem pojavljuje se lista predmeta koje predaje, gde odabirom opcija pored naziva predmeta "Unos ispita" , "Unos aktivnosti" i 
-      "Pregled zaključenih ispita" može da pristupi ovim funkcionalnostima
-      Pregled ličnih podataka - profesor ima mogućnost da pregleda svoje lične podatke
-      Promena šifre - profesoru je takođe omogućena promena šifre
+Functionality Division by User Role:
 
-projekat backendFakultet - glavni backend projekat
+Student:
 
-projekat backendPlacanje - posrednik izmedju fakulteta i banke
-
-projekat backendBanka - sistem banke gde se vrši transfer novca sa računa studenta na račun fakulteta
-
-Korištene tehnologije:
-
-  backend - Spring i Spring Boot, JPA
+  View Announcements - Students can access current announcements.
+  View Archived Announcements - Students can view older, no longer relevant announcements.
+  Tuition Fees - Students can view their payments, review tuition fee installments, and pay outstanding installments through their accounts.
+  Exam Registration and Overview - Students can register for exams through their accounts and also view the list of registered exams.
+  Exam Fee Payment - Students can pay exam fees through their accounts.
+  Exam Results Overview - Students can review their previous exam results, categorized as "Passed Exams" and "Failed Exams."
+  Activity - Students can view the points earned in pre-exam activities.
+  Enrollment - Students can track their enrollment process within the system, which includes data on ECTS credits earned for each enrollment.
+  Personal Data Overview - Students can view their personal information.
+  Password Change - Students can update their account passwords.
   
-  frontend - TypeScript, React, Next.js, React Bootstrap
+Professor:
+
+  Exam Data Entry - Professors can input data related to exam activities.
+  Activity Entry - Professors can input points earned in pre-exam activities.
+  View Closed Exams - Professors can review finalized exams from previous exam periods.
+  View Courses - Upon logging in, professors see a list of courses they teach. For each course, options such as "Enter Exams," "Enter Activities," and "View Closed Exams" are available.
+  Personal Data Overview - Professors can view their personal information.
+  Password Change - Professors can also update their account passwords.
   
-  baza podataka - MySQL
+Project Modules:
+
+  backendFakultet - The main backend project.
+  backendPlacanje - Middleware between the university and the bank.
+  backendBanka - Bank system handling the transfer of funds from the student account to the university account.
+  
+Technologies Used:
+
+Backend:
+
+  Spring and Spring Boot, JPA
+  
+Frontend:
+  TypeScript, React, Next.js, React Bootstrap
+  
+Database:
+
+  MySQL
       
       
